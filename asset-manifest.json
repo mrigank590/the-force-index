@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/the-force-index/static/js/main.1acc5ee7.js",
+    "main.js": "/the-force-index/static/js/main.f2f116fb.js",
     "index.html": "/the-force-index/index.html",
-    "main.1acc5ee7.js.map": "/the-force-index/static/js/main.1acc5ee7.js.map"
+    "main.f2f116fb.js.map": "/the-force-index/static/js/main.f2f116fb.js.map"
   },
   "entrypoints": [
-    "static/js/main.1acc5ee7.js"
+    "static/js/main.f2f116fb.js"
   ]
 }
