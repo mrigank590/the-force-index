@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 /* ─────────────────────────────────────────────
    THEME TOKENS
@@ -312,6 +312,13 @@ export default function StarWarsGuide() {
   const th = themes[mode];
   const vColors = verdictColors(mode);
   const toggle = k => setOpen(p => ({ ...p, [k]: !p[k] }));
+
+  useEffect(() => {
+    document.body.style.margin     = "0";
+    document.body.style.padding    = "0";
+    document.body.style.background = th.bg;
+    document.documentElement.style.background = th.bg;
+  }, [th.bg]);
 
   const noEditNames = new Set(["No major fanedit needed","No fanedit needed","No major fanedit — watch as-is","N/A — cancelled","N/A",""]);
 
