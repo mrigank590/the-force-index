@@ -2,6 +2,8 @@
 
 > *A complete Star Wars watching guide for first-time viewers — with fan edit recommendations, community verdicts, and honest negatives.*
 
+**[→ View the Live Guide](https://mrigank590.github.io/the-force-index)**
+
 ---
 
 ## What This Is
